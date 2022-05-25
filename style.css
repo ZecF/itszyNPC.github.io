@@ -1,0 +1,248 @@
+html, body {
+  background: #2e3440 url(https://rei.my.id/img/nordwallpaper.png) no-repeat center center fixed;
+  color: #eceff4;
+  width: 100%;
+  overflow-x: hidden;
+	}
+
+h2{
+	font-family: "Poppins";
+	font-size: 36px;
+
+	margin-bottom: 15px;
+}
+
+code {
+	color: #fff;
+	
+	}
+
+h3 {
+	font-size: 24px;
+	font-weight: 500;
+	color: #bf616a;
+
+	margin-bottom: 25px;
+	margin-top: 0px;
+}
+
+h3,
+span,
+p {
+	font-family: "Avenir";
+}
+
+.profile_container {
+	margin: 60px 100px 0px;
+	max-width: 400px;
+	display: flex;
+	overflow-x: hidden;
+	-webkit-animation-name: bodyLight;
+          animation-name: bodyLight;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition-timing-function: linear;
+}
+
+.back {
+	display: flex;
+	align-items: center;
+	color: #bf616a;
+}
+
+.back i {
+	margin-right: 15px;
+}
+
+.profile_img-LG {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+	object-position: 30% 30%;
+	background-position: 40% 50%;
+	filter: drop-shadow(5px 10px 20px #eaeaea);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+      
+    }
+    
+ 
+
+.flag_wrapper {
+	width: 50px;
+	height: 50px;
+	background-color: #bf616a;
+	border-radius: 100%;
+	position: relative;
+	top: -70px;
+	left: 230px;
+}
+
+.flag {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+.description {
+	margin-bottom: 30px;
+	margin-top: 0px;
+}
+
+.profile_img_section {
+	margin-right: 50px;
+	  -webkit-animation-name: triangleMove;
+          animation-name: triangleMove;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition-timing-function: linear;
+}
+
+.profile_desc_section {
+	display: flex;
+	flex-direction: column;
+
+	margin-left: 50px;
+}
+
+.interests_item {
+	display: inline-block;
+	padding: 5px 15px;
+	margin-right: 7.5px;
+	margin-bottom: 10px;
+	line-height: 35px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+
+	color: #bf616a;
+}
+
+.info {
+	margin-top: -20px;
+	
+}
+
+.link_img_wrapper {
+	width: 40px;
+	height: 40px;
+	background-color: #eaeaea;
+	border-radius: 10px;
+	position: relative;
+}
+
+.link_img {
+	height: 20px;
+	width: 20px;
+	position: absolute;
+	right: 0;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto auto;
+}
+
+ul {
+	padding: 0px;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	align-items: left;
+	margin-bottom: 5px;
+}
+
+li p {
+	margin-left: 0px;
+	color: #bf616a;
+}
+
+@media screen and (max-width: 1000px) {
+	.profile_container,
+	.info,
+	.back {
+		margin: 60px 33px 0px;
+	}
+
+	.profile_container {
+		flex-direction: column;
+	}
+
+	.profile_img_section {
+		margin: 0 auto;
+	}
+
+	.profile_img-LG {
+		width: 200px;
+		margin-top: 50px;
+		height: 200px;
+		border-radius: 100%;
+		
+	}
+	.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 20px;
+  height: 20px;
+}
+
+
+.nord1 {
+  background: #2e3440;
+}
+
+.nord2 {
+  background: #bf616a;
+}
+
+.nord3 {
+  background: #a3be8c;
+}
+
+.nord4 {
+  background: #ebcb8b;
+}
+
+.nord5 {
+  background: #81a1c1;
+}
+
+.nord6 {
+  background: #b48ead;
+}
+
+.nord7 {
+  background: #88c0d0;
+}
+
+.nord8 {
+  background: #e5e9f0;
+}
+	.flag_wrapper {
+	}
+
+	.profile_desc_section {
+		margin-left: 0px;
+		margin-bottom: 10px;
+		margin-top: -40px;
+	}
+
+	.info {
+		margin-top: 10px;
+		
+	}
+}
